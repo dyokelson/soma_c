@@ -1,18 +1,18 @@
 {
 	"ssg": [
 		{
-			"name":"alpha_group",
+			"name":"soma_group",
 			"bootstrap":"init",
-			"group_file":"alpha.ssg"
+			"group_file":"soma.ssg"
 		}
 	],
 	"libraries":{
-		"alpha": "libalpha-bedrock-module.so"
+		"soma": "libsoma-bedrock-module.so"
 	},
 	"providers":[
 		{
 			"name": "Alpha",
-			"type": "alpha",
+			"type": "soma",
 			"provider_id": 42
 		}
 	]

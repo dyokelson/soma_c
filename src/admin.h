@@ -7,15 +7,15 @@
 #define _ADMIN_H
 
 #include "types.h"
-#include "alpha/alpha-admin.h"
+#include "soma/soma-admin.h"
 
-typedef struct alpha_admin {
+typedef struct soma_admin {
    margo_instance_id mid;
-   hg_id_t           create_resource_id;
-   hg_id_t           open_resource_id;
-   hg_id_t           close_resource_id;
-   hg_id_t           destroy_resource_id;
-   hg_id_t           list_resources_id;
-} alpha_admin;
+   hg_id_t           create_collector_id;
+   hg_id_t           open_collector_id;
+   hg_id_t           close_collector_id;
+   hg_id_t           destroy_collector_id;
+   hg_id_t           list_collectors_id;
+} soma_admin;
 
 #endif
